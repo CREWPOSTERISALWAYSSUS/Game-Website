@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 900px; /* only for demonstration, should be removed */
+  background: #000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #000;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #000;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>MRC13's Game Website<h1>
+<iframe src="https://free.timeanddate.com/clock/i890iy6q/n412/fn7/fs20/fcfff/tct/pct/ftb/tt0/th2" frameborder="0" width="496" height="25" allowtransparency="true"></iframe>
+  </head>
+  <body>
+  <h2>About Us</h2>
+  <h4>We are 3 middle schoolers that wanted to bring a website of fun back to school! Hopefully we have succeeded with this website.</h4>
+  <h2>Bio</h2>
+  <h4>Hello! Welcome to my website! I built this with my friend and we hope that you like it! Have Fun!</h4></h2>
+</header>
+
+
+  <h1>Games</h1>
+    <h3>Moto X3M</h3>
+  <a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s017q3e/moto-x3m.xml">Visit Page</a>
+  <h3>Minecraft</h3>
+  <a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s022s4h6/minecraft-classic2.xml">Visit Page</a>
+  <h3>Gorescrpit</h3>
+  <a href="https://gorescript.github.io/classic/play/">Visit Page</a>
+  <h3>Google Gravity</h3>
+  <a href="https://mrdoob.com/projects/chromeexperiments/google-space/">Visit Page</a>
+  <h3>Orgami Simulator</h3>
+  <a href="https://origamisimulator.org/">Visit Page</a>
+  <h1>Utilities</h1>
+  <h3>Youtube Downloader</h3>
+  <a href="https://ytmp4.top/#url=https://www.youtube.com/">Visit Page</a>
+  <h2>Website Editor</h2>
+  <h3>Edit</h3>
+  <a href="javascript:/* Made by 3kh0 https://github.com/3kh0/edit-page/ */document.body.contentEditable = true; void 0">(Drag and Drop me on Bookmark)</a>
+ <h3>Done Edit</h3>
+ <a href="javascript:/* Made by 3kh0 */document.body.contentEditable = 'false'; document.designMode='off'; void 0">(Drag and Drop me on Bookmark)</a>
+ 
+
+<footer>
+  <p>Made By MRC13</p>
+</footer>
+
+</body>
+</html>
