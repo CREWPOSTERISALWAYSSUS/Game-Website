@@ -1,143 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>MRC13 Game Website</title>
-<meta charset="utf-8">
+<title>MRC13 NEW WEBSITE (Beta)</title>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Style the header */
-header {
-  background-color: #000;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 30%;
-  height: 900px; /* only for demonstration, should be removed */
-  background: #000;
-  padding: 20px;
-}
-
-/* Style the list inside the menu */
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-article {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: #000;
-  height: 300px; /* only for demonstration, should be removed */
-}
-
-/* Clear floats after the columns */
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: #000;
-  padding: 10px;
-  text-align: center;
-  color: white;
-}
-
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-  nav, article {
-    width: 100%;
-    height: auto;
-  }
-}
-</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-Black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
-<title>MRC13's Website</title>
-<header>
-  <h2>MRC13's Game Website<h1>
-<iframe src="https://free.timeanddate.com/clock/i890iy6q/n412/fn7/fs20/fcfff/tct/pct/ftb/tt0/th2" frameborder="0" width="496" height="25" allowtransparency="true"></iframe>
-  </head>
-  <body>
-  <h2>About Us</h2>
-  <h4>We are 3 middle schoolers that wanted to bring a website of fun back to school! Hopefully we have succeeded with this website.</h4>
-  <h2>Bio</h2>
-  <h4>Hello! Welcome to my website! I built this with my friend and we hope that you like it! Have Fun!</h4>
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="mySidebar">
+<h1>Extras</h1>
+  <h1 class="w3-xxxlarge w3-text-theme"></h1>
+  <button class="w3-bar-item w3-button" onclick="w3_close()">Close <i class="fa fa-remove"></i></button>'
+  <h1>About Us</h1>
+  <h3>We are 4 people that wanted to bring a website of fun back to school! Hopefully we have succeeded with this website. So welcome to my website! I built this with my friends and we hope that you like it! Have Fun!</h3>
+  <h3>(DISCLAIMER: WEBSITE MIGHT GET BLOCKED, WHEN IT GETS BLOCKED, WAIT ONE DAY FOR IT TO GET BACK UP AND RUNNING)</h3>
+</nav>
+
+<!-- Header -->
+<header class="w3-container w3-theme w3-padding" id="myHeader">
+  <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+  <div class="w3-center">
+  <h4>Welcome to the New and Improved:</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">MRC13 GAME WEBSITE</h1>
+  <h1></h1>
+  <iframe src="https://free.timeanddate.com/clock/i890iy6q/n412/fn7/fs20/fcfff/tct/pct/ftb/tt0/th2" frameborder="0" width="496" height="25" allowtransparency="true"></iframe>
+  <h1></h1>
+  <div id="m-booked-weather-bl250-80356"> <div class="booked-wzs-250-175 weather-customize" style="background-color:#137AE9;width:430px;" id="width3"> <div class="booked-wzs-250-175_in"> <div class="booked-wzs-250-175-data"> <div class="booked-wzs-250-175-left-img wrz-18"> </div> <div class="booked-wzs-250-175-right"> <div class="booked-wzs-day-deck"> <div class="booked-wzs-day-val"> <div class="booked-wzs-day-number"><span class="plus">+</span>87</div> <div class="booked-wzs-day-dergee"> <div class="booked-wzs-day-dergee-val">&deg;</div> <div class="booked-wzs-day-dergee-name">F</div> </div> </div> <div class="booked-wzs-day"> <div class="booked-wzs-day-d">H: <span class="plus">+</span>91&deg;</div> <div class="booked-wzs-day-n">L: <span class="plus">+</span>64&deg;</div> </div> </div> <div class="booked-wzs-250-175-info"> <div class="booked-wzs-250-175-city">Bethesda </div> <div class="booked-wzs-250-175-date">Friday, 20 May</div> <div class="booked-wzs-left"> <span class="booked-wzs-bottom-l">See 7-Day Forecast</span> </div> </div> </div> </div> <table cellpadding="0" cellspacing="0" class="booked-wzs-table-250"> <tr> <td>Sat</td> <td>Sun</td> <td>Mon</td> <td>Tue</td> <td>Wed</td> <td>Thu</td> </tr> <tr> <td class="week-day-ico"><div class="wrz-sml wrzs-06"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-03"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-03"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>97&deg;</td> <td class="week-day-val"><span class="plus">+</span>87&deg;</td> <td class="week-day-val"><span class="plus">+</span>67&deg;</td> <td class="week-day-val"><span class="plus">+</span>70&deg;</td> <td class="week-day-val"><span class="plus">+</span>67&deg;</td> <td class="week-day-val"><span class="plus">+</span>80&deg;</td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>71&deg;</td> <td class="week-day-val"><span class="plus">+</span>69&deg;</td> <td class="week-day-val"><span class="plus">+</span>57&deg;</td> <td class="week-day-val"><span class="plus">+</span>54&deg;</td> <td class="week-day-val"><span class="plus">+</span>56&deg;</td> <td class="week-day-val"><span class="plus">+</span>62&deg;</td> </tr> </table> </div> </div> </div><script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-275.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_80356(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-weather-bl250-80356'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=4524;type=3;scode=124;ltid=3458;domid=w209;anc_id=55918;countday=undefined;cmetric=0;wlangID=1;color=137AE9;wwidth=430;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=80356';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
 </header>
 
 
-  <h1>Games</h1>
-    <h3>Moto X3M</h3>
-  <a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s017q3e/moto-x3m.xml">Visit Page</a>
-  <h3>Minecraft</h3>
-  <a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s022s4h6/minecraft-classic2.xml">Visit Page</a>
-  <h3>Gorescrpit</h3>
-  <a href="https://gorescript.github.io/classic/play/">Visit Page</a>
-  <h3>Google Gravity</h3>
-  <a href="https://mrdoob.com/projects/chromeexperiments/google-space/">Visit Page</a>
-  <h3>Orgami Simulator</h3>
-  <a href="https://origamisimulator.org/">Visit Page</a>
-  <h3>Among Us (Updated)</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/1dbbd74f791d194b4f1d796ee832b68aa9011a20/projects/among-us/index.html">Visit Page</a>
-  <h3>Sandboxels</h3>
-  <a href="https://sandboxels.r74n.com/">Visit Page</a>
-   <h3>Basket Bros</h3>
-  <a href="https://history.surf/">Visit Page</a>
-  <h3>Superhot</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/b7ae4658a7623cbc397ccb72cdece4373d8f4665/projects/superhot/index.html">Visit Page</a>
-  <h3>Super Mario 64</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/4980b6709563a8ee78e5a49114335f77f66e0119/projects/sm64/index.html">Visit Page</a>
-  <h3>Temple Run 2</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/93498b98e79748873ee300656b1a6722e41c528d/projects/temple-run-2/index.html">Visit Page</a>
-  <h3>The Backrooms (WARNING: COULD BE SCARY FOR YOUNGER KIDS)</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/2a953cc3a89429853a2662014892f3be95a4d65e/projects/backrooms/index.html">Visit Page</a>
-  <h3>Getaway Shootout</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/c7af175bdf4af1a76f8a94b505220d227db7073d/projects/getaway-shootout/index.html">Visit Page</a>
-  <h3>Death Run 3D</h3>
-  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/1dbbd74f791d194b4f1d796ee832b68aa9011a20/projects/death-run-3d/index.html">Visit Page</a>
-  <h3>Geomerty Dash</h3>
-  <a href= https://rawcdn.githack.com/3kh0/3kh0.github.io/ef5e0af144e8a4ca9ef1a4e21281fe94446c3c2d/projects/geodash/index.html>Visit Page</a>
-  <h3>Choppy Orc</h3>
-  <a href= "https://or321.github.io/choppy-orc-autosplitter/">Visit Page</a>
-  <h3>Stack</h3>
-  <a href= "https://rawcdn.githack.com/3kh0/3kh0.github.io/d94e14dad1e9f53a276b115c9a5b10ca8cd4b430/projects/stack/index.html">Visit Page</a>
-  <h3>EEL SLAP (Not a joke)</h3>
-  <a href= "http://eelslap.com/">Visit Page</a>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-theme-l1"> 
+        <span onclick="document.getElementById('id01').style.display='none'"
+        class="w3-button w3-display-topright">×</span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-padding">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>Go to our <a class="w3-btn" href="/w3css/default.asp">W3.CSS Tutorial</a> to learn more!</p>
+      </div>
+      <footer class="w3-container w3-theme-l1">
+        <p>Modal footer</p>
+      </footer>
+    </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>What's New!</h3><br>
+  <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>New Layout for website</p>
+  <p>Brand new link that cant be blocked</p>
+  <p>Fits any screen sizes</p>
+  <p>PC and Mobile configuration</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Updates</h3><br>
+  <i class="fa fa-css3 w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Games has updated and also some are fixed</p>
+  <p>Weather Added</p>
+  <p>Updates will now happen every week</p>
+  
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Design</h3><br>
+  <i class="fa fa-diamond w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+  <p>Paper like design</p>
+  <p>Bold colors and shadows</p>
+  <p>Easier way to access games</p>
+  <p>Equal across devices</p>
+  </div>
+</div>
+</div>
+
+<div class="w3-container">
+<hr>
+<div class="w3-center">
+  <h2>Game List</h2>
+</div>
+
+ <a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s017q3e/moto-x3m.xml">Moto X3M</a>
+  <h3></h3>
+  <a href="https://www-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://sites.google.com/site/s022s4h6/minecraft-classic2.xml">Minecraft</a>
+  <h3></h3>
+  <a href="https://gorescript.github.io/classic/play/">Gorescript</a>
+  <h3></h3>
+  <a href="https://mrdoob.com/projects/chromeexperiments/google-space/">Google Space</a>
+  <h3></h3>
+  <a href="https://origamisimulator.org/">Orgami Simulator</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/1dbbd74f791d194b4f1d796ee832b68aa9011a20/projects/among-us/index.html">Among Us (Updated)</a>
+  <h3></h3>
+  <a href="https://sandboxels.r74n.com/">Sandboxels</a>
+  <h3></h3>
+   <h3></h3>
+  <a href="https://history.surf/">Basket Bros</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/b7ae4658a7623cbc397ccb72cdece4373d8f4665/projects/superhot/index.html">Superhot</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/4980b6709563a8ee78e5a49114335f77f66e0119/projects/sm64/index.html">Super Mario 64 (Most Popular)</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/93498b98e79748873ee300656b1a6722e41c528d/projects/temple-run-2/index.html">Temple Run 2</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/2a953cc3a89429853a2662014892f3be95a4d65e/projects/backrooms/index.html">The Backrooms (WARNING: COULD BE SCARY FOR YOUNGER KIDS)</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/c7af175bdf4af1a76f8a94b505220d227db7073d/projects/getaway-shootout/index.html">Getaway Shootout</a>
+  <h3></h3>
+  <a href="https://rawcdn.githack.com/3kh0/3kh0.github.io/1dbbd74f791d194b4f1d796ee832b68aa9011a20/projects/death-run-3d/index.html">Death Run 3D</a>
+  <h3></h3>
+  <a href= https://rawcdn.githack.com/3kh0/3kh0.github.io/ef5e0af144e8a4ca9ef1a4e21281fe94446c3c2d/projects/geodash/index.html>Geomerty Dash</a>
+  <h3></h3>
+  <a href= "https://or321.github.io/choppy-orc-autosplitter/">Choppy Orc</a>
+  <h3></h3>
+  <a href= "https://rawcdn.githack.com/3kh0/3kh0.github.io/d94e14dad1e9f53a276b115c9a5b10ca8cd4b430/projects/stack/index.html">Stack</a>
+  <h3></h3>
+  <a href= "http://eelslap.com/">EEL SLAP (Not a joke)</a>
+  <h3></h3>
+  <a href= "https://mrdoob.com/projects/chromeexperiments/google-gravity/">Google Gravity</a>
+  <h3></h3>
+  <a href= "https://www.improvememory.org/wp-content/games/swat-vs-zombies/index.html">SWAT VS ZOMBIES</a>
+  <h3></h3>
+  <a href= "https://www.improvememory.org/wp-content/games/swat-vs-zombies/index.html">Paper.io</a>
+  <h3></h3>
+  <a href= "http://patorjk.com/misc/scrollingtext/timewaster.php?text=Must+Waste+More+Time...&autoscroll=ON&duration=25">Time Waster</a>
+  
   <h2>(More Games Coming soon!)</h2>
   <h1>Utilities</h1>
-  <h3>Youtube Downloader</h3>
-  <a href="https://ytmp4.top/#url=https://www.youtube.com/">Visit Page</a>
-  <h3>Mapbox Consept Map</h3>
-  <a href= "https://crewposterisalwayssus.github.io/MapStuff/">VisitPage</a>
+  <h3></h3>
+  <a href="https://ytb.rip/en/youtube-to-mp4">Youtube Downloader</a>
+  <h3></h3>
+  <a href= "https://crewposterisalwayssus.github.io/MapStuff/">Mapbox Concept Map</a>
   <h1>Website Editor</h2>
-  <h3>Edit</h3>
-  <a href="javascript:/* Made by 3kh0 https://github.com/3kh0/edit-page/ */document.body.contentEditable = true; void 0">(Drag and Drop me on your Bookmark bar and click to activate!)</a>
- <h3>Done Edit</h3>
- <a href="javascript:/* Made by 3kh0 */document.body.contentEditable = 'false'; document.designMode='off'; void 0">(Drag and Drop me on your Bookmark bar and click to activate!)</a>
+  <h3></h3>
+  <a href="javascript:/* Made by 3kh0 https://github.com/3kh0/edit-page/ */document.body.contentEditable = true; void 0">Edit (Drag and Drop me on your Bookmark bar and click to activate!)</a>
+ <h3></h3>
+ <a href="javascript:/* Made by 3kh0 */document.body.contentEditable = 'false'; document.designMode='off'; void 0">Done Edit (Drag and Drop me on your Bookmark bar and click to activate!)</a>
 
-<footer>
-  <p>Made By MRC13</p>
-  <p>Request games to: [NOW REDACTED]</p>
-  <p>Special Thanks to 3kh0! </p>
-</footer>
+</div>   
+
+<header class="w3-container w3-black">
+  <h2>Made By MRC13</h2>
+  <h4>Special thanks to: 3kh0(Echo)</h4>
+  <h5></h5>
+  <h1></h1>
+  <h1></h1>
+  <h1></h1>
+</header>
+
+
+
+
+
+
+<script>
+// Side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Tabs
+function openCity(evt, cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+    activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+
+// Accordions
+function myAccFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// Slideshows
+var slideIndex = 1;
+
+function plusDivs(n) {
+  slideIndex = slideIndex + n;
+  showDivs(slideIndex);
+}
+
+function showDivs(n) {
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+showDivs(1);
+
+// Progress Bars
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 5;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width == 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      elem.innerHTML = width * 1  + '%';
+    }
+  }
+}
+</script>
 
 </body>
 </html>
